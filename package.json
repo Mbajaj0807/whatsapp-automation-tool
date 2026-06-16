@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-campaign",
+  "version": "1.0.0",
+  "description": "WhatsApp Campaign Manager",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "xlsx": "^0.18.5",
+    "express": "^4.18.2",
+    "multer": "^2.0.0",
+    "socket.io": "^4.7.2",
+    "qrcode": "^1.5.3"
+  },
+  "config": {
+    "puppeteer_skip_chromium_download": true
+  },
+  "puppeteer": {
+    "skip_chromium_download": true
+  }
+}
